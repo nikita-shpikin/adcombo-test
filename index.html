@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<!-- Основная иконка для всех браузеров-->
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+		<!-- Для Apple устройств-->
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<!-- Манифест для PWA-->
+		<link rel="manifest" href="/manifest.json" />
+		<!-- Windows Tile (если используется)-->
+		<meta name="msapplication-config" content="/browserconfig.xml" />
+		<script src="./js/main.js"></script>
+		<title>adcombo_test</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<h2 class="header__title">Logo</h2>
+				<ul class="burger">
+					<li class="burger-item"></li>
+					<li class="burger-item"></li>
+					<li class="burger-item"></li>
+				</ul>
+				<nav class="nav">
+					<menu class="header__menu">
+						<li class="header__menu-item">
+							<a class="header__menu-link" href="#">People nearby</a>
+						</li>
+						<li class="header__menu-item">
+							<a class="header__menu-link" href="#">Search</a>
+						</li>
+						<li class="header__menu-item header__menu-item--premium">
+							<a class="header__menu-link header__menu-link--premium" href="#"
+								>Premium</a
+							><a href="#">
+								<picture
+									><source
+										srcset="./img/adcombo__icon-diamond.svg"
+										type="image/webp" />
+									<img
+										src="./img/adcombo__icon-diamond.svg"
+										alt="Иконка бриллианта" /></picture
+							></a>
+						</li>
+					</menu>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="parallax"></div>
+			<div class="main__container">
+				<aside class="profile">
+					<div class="profile__user">
+						<picture
+							><source
+								srcset="./img/adcombo__profile-ava.webp"
+								type="image/webp" />
+							<img
+								class="profile__ava"
+								src="./img/adcombo__profile-ava.jpg"
+								alt="Placeholder"
+						/></picture>
+						<div class="profile__user-content">
+							<h2 class="profile__title">Test2412</h2>
+							<h3 class="profile__status">GET PREMIUM</h3>
+						</div>
+					</div>
+					<ul class="profile__list">
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">Profile</a>
+						</li>
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">My photos</a>
+						</li>
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">Messages</a>
+						</li>
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">Favorites</a>
+						</li>
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">Guests</a>
+						</li>
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">Settings</a>
+						</li>
+						<li class="profile__list-item">
+							<a class="profile__list-link" href="#">Log out</a>
+						</li>
+					</ul>
+				</aside>
+				<section class="content">
+					<h2 class="content__title">Закончились кредиты?</h2>
+					<div class="content__banner">
+						<h2 class="content__banner-title">Скидка 40%</h2>
+						<p class="content__banner-text">Предложение действует в течение:</p>
+						<span class="content__banner-timer">00 : 10 : 00</span>
+					</div>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<p class="swiper-text">One time offer!</p>
+								<div class="swiper-block">
+									<div class="swiper-price">
+										50 <span class="swiper-price--highlight">CR</span>
+										<span class="swiper-price-division">/5$</span>
+									</div>
+									<button class="swiper-button">Buy now</button>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<p class="swiper-text">One time offer!</p>
+								<div class="swiper-block">
+									<div class="swiper-price">
+										150 <span class="swiper-price--highlight">CR</span>
+										<span class="swiper-price-division">/5$</span>
+									</div>
+									<button class="swiper-button">Buy now</button>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<p class="swiper-text">One time offer!</p>
+								<div class="swiper-block">
+									<div class="swiper-price">
+										300 <span class="swiper-price--highlight">CR</span>
+										<span class="swiper-price-division">/5$</span>
+									</div>
+									<button class="swiper-button">Buy now</button>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<p class="swiper-text">One time offer!</p>
+								<div class="swiper-block">
+									<div class="swiper-price">
+										500 <span class="swiper-price--highlight">CR</span>
+										<span class="swiper-price-division">/5$</span>
+									</div>
+									<button class="swiper-button">Buy now</button>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<p class="swiper-text">One time offer!</p>
+								<div class="swiper-block">
+									<div class="swiper-price">
+										1000 <span class="swiper-price--highlight">CR</span>
+										<span class="swiper-price-division">/5$</span>
+									</div>
+									<button class="swiper-button">Buy now</button>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<p class="swiper-text">One time offer!</p>
+								<div class="swiper-block">
+									<div class="swiper-price">
+										1000 <span class="swiper-price--highlight">CR</span>
+										<span class="swiper-price-division">/5$</span>
+									</div>
+									<button class="swiper-button">Buy now</button>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+					<button class="content__button">Try now</button>
+					<label class="content__label" for="accept-terms">
+						<input class="content__check" type="checkbox" id="accept-terms" />
+						<span class="content__checkmark"></span>
+						<p class="content__label-text">
+							By clicking Checkbox you agree and accept our
+							<a class="content__label-link" href="#">Privacy Policy</a>, and
+							<a class="content__label-link" href="#">Terms of use</a>
+						</p>
+					</label>
+					<ul class="content__advantages">
+						<li class="content__advantages-item content__advantages--center">
+							<picture
+								><source
+									srcset="./img/adcombo__icon-diamond--size.svg"
+									type="image/webp" />
+								<img
+									class="content__advantages-img"
+									src="./img/adcombo__icon-diamond--size.svg"
+									alt="Иконка бриллианта"
+									width="81"
+									height="67"
+							/></picture>
+						</li>
+						<li class="content__advantages-item content__advantages--top-left">
+							<svg
+								width="50"
+								height="50"
+								viewbox="0 0 50 50"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									opacity="0.1"
+									cx="25"
+									cy="25"
+									r="25"
+									fill="#9564AA"
+								></circle>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M19 34.8042L25.0868 31H33C34.1046 31 35 30.1046 35 29V17C35 15.8954 34.1046 15 33 15H17C15.8954 15 15 15.8954 15 17V29C15 30.1046 15.8954 31 17 31H19V34.8042ZM24.5132 29L21 31.1958V29H17V17H33V29H24.5132ZM20 26V24H27V26H20ZM20 20V22H29V20H20Z"
+									fill="#9564AA"
+								></path>
+							</svg>
+							<p class="content__advantages-text">Отправлять сообщения</p>
+						</li>
+						<li class="content__advantages-item content__advantages--top-right">
+							<svg
+								width="50"
+								height="50"
+								viewbox="0 0 50 50"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									opacity="0.1"
+									cx="25"
+									cy="25"
+									r="25"
+									fill="#9564AA"
+								></circle>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M29.5532 17C28.1056 17 27.1724 17.1725 26.1027 17.6961C25.7066 17.8899 25.335 18.1234 24.99 18.3958C24.6582 18.1387 24.3015 17.9159 23.9218 17.7281C22.8313 17.1888 21.8503 17 20.4545 17C16.7164 17 14 20.0973 14 24.1199C14 27.1578 15.6938 30.0923 18.8488 32.9299C20.5049 34.4193 22.6193 35.8933 24.1336 36.6775L25 37.1261L25.8664 36.6775C27.3807 35.8933 29.4951 34.4193 31.1512 32.9299C34.3062 30.0923 36 27.1578 36 24.1199C36 20.1398 33.2579 17.0154 29.5532 17ZM34 24.1199C34 26.4999 32.5862 28.9493 29.8137 31.4429C28.3022 32.8023 26.359 34.1609 25 34.8737C23.641 34.1609 21.6978 32.8023 20.1863 31.4429C17.4138 28.9493 16 26.4999 16 24.1199C16 21.1477 17.8836 19 20.4545 19C21.5643 19 22.2481 19.1316 23.0351 19.5208C23.5 19.7508 23.9109 20.0544 24.2665 20.4338L25.0023 21.2187L25.7315 20.4275C26.0951 20.033 26.512 19.7224 26.9819 19.4924C27.7459 19.1185 28.387 19 29.5491 19C32.0882 19.0105 34 21.189 34 24.1199Z"
+									fill="#9564AA"
+								></path>
+							</svg>
+							<p class="content__advantages-text">
+								Пользоваться другими премиум функциями
+							</p>
+						</li>
+						<li class="content__advantages-item content__advantages--right">
+							<svg
+								width="50"
+								height="50"
+								viewbox="0 0 50 50"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									opacity="0.1"
+									cx="25"
+									cy="25"
+									r="25"
+									fill="#9564AA"
+								></circle>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M25 18C27.7275 18 30.3357 19.4306 32.7663 21.7811C33.5955 22.583 34.3457 23.4392 35.0061 24.2956C35.4046 24.8124 35.6875 25.219 35.8424 25.4612L36.187 26L35.8424 26.5388C35.6875 26.781 35.4046 27.1876 35.0061 27.7044C34.3457 28.5608 33.5955 29.417 32.7663 30.2188C30.3357 32.5694 27.7275 34 25 34C22.2725 34 19.6643 32.5694 17.2337 30.2188C16.4045 29.417 15.6543 28.5608 14.9939 27.7044C14.5954 27.1876 14.3125 26.781 14.1576 26.5388L13.813 26L14.1576 25.4612C14.3125 25.219 14.5954 24.8124 14.9939 24.2956C15.6543 23.4392 16.4045 22.583 17.2337 21.7811C19.6643 19.4306 22.2725 18 25 18ZM33.4223 25.5169C32.8176 24.7327 32.1302 23.9482 31.376 23.2189C29.2825 21.1944 27.1051 20 25 20C22.8949 20 20.7175 21.1944 18.624 23.2189C17.8698 23.9482 17.1824 24.7327 16.5777 25.5169C16.4472 25.6862 16.3265 25.8478 16.2162 26C16.3265 26.1522 16.4472 26.3138 16.5777 26.4831C17.1824 27.2673 17.8698 28.0518 18.624 28.7811C20.7175 30.8056 22.8949 32 25 32C27.1051 32 29.2825 30.8056 31.376 28.7811C32.1302 28.0518 32.8176 27.2673 33.4223 26.4831C33.5528 26.3138 33.6735 26.1522 33.7838 26C33.6735 25.8478 33.5528 25.6862 33.4223 25.5169ZM21 26C21 28.2091 22.7909 30 25 30C27.2091 30 29 28.2091 29 26C29 23.7909 27.2091 22 25 22C22.7909 22 21 23.7909 21 26ZM27 26C27 27.1046 26.1046 28 25 28C23.8954 28 23 27.1046 23 26C23 24.8954 23.8954 24 25 24C26.1046 24 27 24.8954 27 26Z"
+									fill="#9564AA"
+								></path>
+							</svg>
+							<p class="content__advantages-text">Просматривать скрытые фото</p>
+						</li>
+						<li
+							class="content__advantages-item content__advantages--bottom-right"
+						>
+							<svg
+								width="50"
+								height="50"
+								viewbox="0 0 50 50"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									opacity="0.1"
+									cx="25"
+									cy="25"
+									r="25"
+									fill="#9564AA"
+								></circle>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M25 29C22.7909 29 21 27.2091 21 25C21 22.7909 22.7909 21 25 21C27.2091 21 29 22.7909 29 25C29 27.2091 27.2091 29 25 29ZM27 25C27 26.1046 26.1046 27 25 27C23.8954 27 23 26.1046 23 25C23 23.8954 23.8954 23 25 23C26.1046 23 27 23.8954 27 25Z"
+									fill="#9564AA"
+								></path>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M31.6562 33.897L33.8733 31.6798L33.0925 28.843L33.4327 28.0305L36 26.5818V23.4464L33.44 21.9917L33.1055 21.1807L33.8961 18.3424L31.6774 16.1268L28.8403 16.9075L28.0296 16.5676L26.5808 14H23.4454L21.9907 16.56L21.1798 16.8945L18.342 16.1028L16.1267 18.3181L16.9075 21.1557L16.5676 21.9663L14 23.4151V26.5496L16.5577 28.0076L16.8925 28.8193L16.102 31.6572L18.3181 33.8733L21.1557 33.0925L21.9664 33.4325L23.4153 35.999H26.5498L28.0067 33.4412L28.8183 33.1065L31.6562 33.897ZM31.8527 26.6256L30.9809 28.7078L31.6362 31.0886L31.0678 31.657L28.692 30.9951L26.609 31.8542L25.3873 33.999H24.5829L23.3714 31.8529L21.2916 30.9808L18.9095 31.6362L18.342 31.0688L19.0039 28.693L18.1448 26.6101L16 25.3876V24.583L18.1471 23.3715L19.0192 21.2916L18.3638 18.9095L18.93 18.3432L21.3058 19.0059L23.3895 18.1466L24.6093 16H25.4129L26.6245 18.1471L28.7044 19.0192L31.087 18.3636L31.6558 18.9317L30.9941 21.307L31.8534 23.3906L34 24.6103V25.4139L31.8527 26.6256Z"
+									fill="#9564AA"
+								></path>
+							</svg>
+							<p class="content__advantages-text">Просматривать скрытые фото</p>
+						</li>
+						<li
+							class="content__advantages-item content__advantages--bottom-left"
+						>
+							<svg
+								width="50"
+								height="50"
+								viewbox="0 0 50 50"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									opacity="0.1"
+									cx="25"
+									cy="25"
+									r="25"
+									fill="#9564AA"
+								></circle>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M19 36.8042L25.0868 33H33C34.1046 33 35 32.1046 35 31V19C35 17.8954 34.1046 17 33 17H17C15.8954 17 15 17.8954 15 19V31C15 32.1046 15.8954 33 17 33H19V36.8042ZM24.5132 31L21 33.1958V31H17V19H33V31H24.5132Z"
+									fill="#9564AA"
+								></path>
+								<rect x="20" y="22" width="10" height="2" fill="#9564AA"></rect>
+								<rect x="20" y="26" width="10" height="2" fill="#9564AA"></rect>
+							</svg>
+							<p class="content__advantages-text">Просматривать скрытые фото</p>
+						</li>
+						<li class="content__advantages-item content__advantages--left">
+							<svg
+								width="50"
+								height="50"
+								viewbox="0 0 50 50"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									opacity="0.1"
+									cx="25"
+									cy="25"
+									r="25"
+									fill="#9564AA"
+								></circle>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M18.497 20C18.1688 19.4634 18 18.8029 18 18C18 16.4171 19.1904 15 21 15C22.812 15 24.2733 16.2136 25 18.1138C25.7267 16.2136 27.188 15 29 15C30.8096 15 32 16.4171 32 18C32 18.8029 31.8312 19.4634 31.503 20H33C34.1046 20 35 20.8954 35 22V24C35 25.1046 34.1046 26 33 26V33C33 34.1046 32.1046 35 31 35H19C17.8954 35 17 34.1046 17 33V26C15.8954 26 15 25.1046 15 24V22C15 20.8954 15.8954 20 17 20H18.497ZM24 22H17V24H24V22ZM33 24H26V22H33V24ZM24 33V26H19V33H24ZM31 33H26V26H31V33ZM21 17C20.3796 17 20 17.452 20 18C20 19.2532 21.017 19.8491 23.4294 19.9745C23.1613 18.1116 22.1622 17 21 17ZM26.5 19.9745C26.7681 18.1116 27.7672 17 28.9294 17C29.5498 17 29.9294 17.452 29.9294 18C29.9294 19.2532 28.9124 19.8491 26.5 19.9745Z"
+									fill="#9564AA"
+								></path>
+							</svg>
+							<p class="content__advantages-text">Оплачивать подарки</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	</body>
+</html>
